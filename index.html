@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Airwell — Disparadores Notificaciones</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, sans-serif; background: #f4f6f9; color: #1f2937; padding: 32px; }
+  h1 { font-size: 22px; font-weight: 700; margin-bottom: 6px; color: #212b59; }
+  .subtitle { font-size: 13px; color: #6b7280; margin-bottom: 32px; }
+  .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #9ca3af; margin: 32px 0 12px; padding-bottom: 6px; border-bottom: 1px solid #e5e7eb; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(520px, 1fr)); gap: 16px; }
+  .card { background: #fff; border-radius: 10px; border: 1px solid #e5e7eb; padding: 20px 24px; display: flex; flex-direction: column; gap: 12px; }
+  .card.inactive { opacity: 0.55; border-style: dashed; }
+  .card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+  .card-title a { font-size: 14px; font-weight: 600; color: #212b59; text-decoration: none; }
+  .card-title a:hover { text-decoration: underline; }
+  .badge { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 99px; white-space: nowrap; flex-shrink: 0; }
+  .badge.active { background: #d1fae5; color: #065f46; }
+  .badge.inactive { background: #f3f4f6; color: #6b7280; }
+  .card-meta { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #6b7280; }
+  .email-tag { display: inline-flex; align-items: center; gap: 4px; background: #eff6ff; color: #1d4ed8; border-radius: 6px; padding: 3px 10px; font-size: 12px; font-weight: 500; }
+  .no-sig { font-size: 11px; color: #9ca3af; font-style: italic; }
+  .sig-img { max-height: 60px; max-width: 200px; object-fit: contain; }
+  .sig-box { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 6px; padding: 10px 14px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+
+<h1>Disparadores — Categorie Notifications</h1>
+<p class="subtitle">airwellhelp.zendesk.com &nbsp;·&nbsp; 32 disparadores &nbsp;·&nbsp; Categoria ID 19913038375953</p>
+
+<div class="section-title">Disparadores activos con firma</div>
+<div class="grid">
+
+  <!-- Service :: Mise a jour commentaires -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35851713359505" target="_blank">
+          Service :: Notifier le demandeur et les personnes en copie (CC) de la mise a jour des commentaires
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">service@airwell.com</span>
+    </div>
+  </div>
+
+  <!-- Contact :: Mise a jour commentaires -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35851855032721" target="_blank">
+          Contact :: Notifier le demandeur et les personnes en copie (CC) de la mise a jour des commentaires
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">service@airwell.com</span>
+    </div>
+  </div>
+
+  <!-- Info :: Mise a jour commentaires -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35851887750417" target="_blank">
+          Info :: Notifier le demandeur et les personnes en copie (CC) de la mise a jour des commentaires
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/b190930f1dbcbb4c35292df1b274f266.png" alt="Logo Ma Maison Hybride">
+      <span class="email-tag">info@ma-maison-hybride.com</span>
+    </div>
+  </div>
+
+  <!-- Inter :: Mise a jour commentaires -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35851926950545" target="_blank">
+          Inter :: Notifier le demandeur et les personnes en copie (CC) de la mise a jour des commentaires
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">inter@airwell.com</span>
+    </div>
+  </div>
+
+  <!-- SAV :: Mise a jour commentaires -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35851962554001" target="_blank">
+          SAV :: Notifier le demandeur et les personnes en copie (CC) de la mise a jour des commentaires
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">sav@airwell.com</span>
+    </div>
+  </div>
+
+  <!-- SAV IT :: Mise a jour commentaires -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35852011677841" target="_blank">
+          SAV IT :: Notifier le demandeur et les personnes en copie (CC) de la mise a jour des commentaires
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">savit@airwell.com</span>
+    </div>
+  </div>
+
+  <!-- SP :: Mise a jour commentaires -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35852238209553" target="_blank">
+          SP :: Notifier le demandeur et les personnes en copie (CC) de la mise a jour des commentaires
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">sp@airwell.com</span>
+    </div>
+  </div>
+
+  <!-- Support :: Mise a jour commentaires -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35852332830481" target="_blank">
+          Support :: Notifier le demandeur et les personnes en copie (CC) de la mise a jour des commentaires
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">support@airwell.com</span>
+    </div>
+  </div>
+
+  <!-- Technik :: Mise a jour commentaires -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35852407767953" target="_blank">
+          Technik :: Notifier le demandeur et les personnes en copie (CC) de la mise a jour des commentaires
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">technik@airwell-res.de</span>
+    </div>
+  </div>
+
+  <!-- Contact :: Nouveau ticket proactif -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35852576469393" target="_blank">
+          Contact :: Notifier le demandeur du nouveau ticket proactif
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">service@airwell.com</span>
+    </div>
+  </div>
+
+  <!-- Service :: Nouveau ticket proactif -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35852561848209" target="_blank">
+          Service :: Notifier le demandeur du nouveau ticket proactif
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">service@airwell.com</span>
+    </div>
+  </div>
+
+  <!-- Info :: Nouveau ticket proactif -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35852653694481" target="_blank">
+          Info :: Notifier le demandeur du nouveau ticket proactif
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/b190930f1dbcbb4c35292df1b274f266.png" alt="Logo Ma Maison Hybride">
+      <span class="email-tag">info@ma-maison-hybride.com</span>
+    </div>
+  </div>
+
+  <!-- Inter :: Nouveau ticket proactif -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35852728060049" target="_blank">
+          Inter :: Notifier le demandeur du nouveau ticket proactif
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">inter@airwell.com</span>
+    </div>
+  </div>
+
+  <!-- SAV :: Nouveau ticket proactif -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35852832640273" target="_blank">
+          SAV :: Notifier le demandeur du nouveau ticket proactif
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">sav@airwell.com</span>
+    </div>
+  </div>
+
+  <!-- SAV IT :: Nouveau ticket proactif -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35852874354321" target="_blank">
+          SAV IT :: Notifier le demandeur du nouveau ticket proactif
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">savit@airwell.com</span>
+    </div>
+  </div>
+
+  <!-- SP :: Nouveau ticket proactif -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35853073818001" target="_blank">
+          SP :: Notifier le demandeur du nouveau ticket proactif
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">sp@airwell.com</span>
+    </div>
+  </div>
+
+  <!-- Support :: Nouveau ticket proactif -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35853130796945" target="_blank">
+          Support :: Notifier le demandeur du nouveau ticket proactif
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">support@airwell.com</span>
+    </div>
+  </div>
+
+  <!-- Technik :: Nouveau ticket proactif -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/35853140394897" target="_blank">
+          Technik :: Notifier le demandeur du nouveau ticket proactif
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <div class="sig-box">
+      <img class="sig-img" src="https://img.signitic.app/uploads/3dda15d07f73aaba13ca3b70990a40da.png" alt="Logo Airwell">
+      <span class="email-tag">technik@airwell-res.de</span>
+    </div>
+  </div>
+
+</div>
+
+<div class="section-title">Disparadores activos sin firma en cuerpo (Dynamic Content / sin cuerpo estatico)</div>
+<div class="grid">
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/19913031137041" target="_blank">
+          Notifier le demandeur de la reception de la demande (Tour Eiffel)
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <span class="no-sig">Sin firma estatica — usa plantilla de marca</span>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/21912845082385" target="_blank">
+          Notifier le demandeur de la reception de la demande (Avion)
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <span class="no-sig">Sin firma estatica — usa Dynamic Content</span>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/22996425938065" target="_blank">
+          SP | Notifier le demandeur de la reception de la demande (Avion)
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <span class="no-sig">Sin firma estatica — usa Dynamic Content</span>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/21912735680401" target="_blank">
+          Notifier le demandeur et les personnes en copie (CC) de la reception de la demande (Halteres)
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <span class="no-sig">Sin firma estatica — usa Dynamic Content</span>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/21912957882513" target="_blank">
+          Notifier le demandeur et les personnes en copie (CC) de la reception de la demande (Sakura)
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <span class="no-sig">Sin firma estatica — usa Dynamic Content</span>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/42800157288209" target="_blank">
+          Notifier le demandeur de la reception de la demande de garantie (Avion)
+        </a>
+      </div>
+      <span class="badge active">Activo</span>
+    </div>
+    <span class="no-sig">Sin firma estatica — usa Dynamic Content</span>
+  </div>
+
+</div>
+
+<div class="section-title">Disparadores inactivos</div>
+<div class="grid">
+
+  <div class="card inactive">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/19913031196817" target="_blank">
+          Notifier le groupe de l'affectation
+        </a>
+      </div>
+      <span class="badge inactive">Inactivo</span>
+    </div>
+    <span class="no-sig">Sin firma — notificacion interna de grupo</span>
+  </div>
+
+  <div class="card inactive">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/19913031162385" target="_blank">
+          Notifier l'assigne de la mise a jour des commentaires
+        </a>
+      </div>
+      <span class="badge inactive">Inactivo</span>
+    </div>
+    <span class="no-sig">Sin firma — notificacion interna agente</span>
+  </div>
+
+  <div class="card inactive">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/19913025643281" target="_blank">
+          Notifier l'assigne de l'affectation
+        </a>
+      </div>
+      <span class="badge inactive">Inactivo</span>
+    </div>
+    <span class="no-sig">Sin firma — notificacion interna agente</span>
+  </div>
+
+  <div class="card inactive">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/19913025650833" target="_blank">
+          Notifier l'assigne du ticket rouvert
+        </a>
+      </div>
+      <span class="badge inactive">Inactivo</span>
+    </div>
+    <span class="no-sig">Sin firma — notificacion interna agente</span>
+  </div>
+
+  <div class="card inactive">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/19913031207569" target="_blank">
+          Notifier tous les agents de la demande recue
+        </a>
+      </div>
+      <span class="badge inactive">Inactivo</span>
+    </div>
+    <span class="no-sig">Sin firma — notificacion interna todos agentes</span>
+  </div>
+
+  <div class="card inactive">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/19913031218065" target="_blank">
+          Affecter automatiquement au premier agent repondant par e-mail
+        </a>
+      </div>
+      <span class="badge inactive">Inactivo</span>
+    </div>
+    <span class="no-sig">Sin firma — asignacion automatica</span>
+  </div>
+
+  <div class="card inactive">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/19913025628305" target="_blank">
+          Notifier le demandeur et les personnes en copie (CC) de la mise a jour des commentaires
+        </a>
+      </div>
+      <span class="badge inactive">Inactivo</span>
+    </div>
+    <span class="no-sig">Sin firma — disparador original reemplazado por variantes por marca</span>
+  </div>
+
+  <div class="card inactive">
+    <div class="card-header">
+      <div class="card-title">
+        <a href="https://airwellhelp.zendesk.com/admin/objects-rules/rules/triggers/19913031144593" target="_blank">
+          Notifier le demandeur du nouveau ticket proactif
+        </a>
+      </div>
+      <span class="badge inactive">Inactivo</span>
+    </div>
+    <span class="no-sig">Sin firma — disparador original reemplazado por variantes por marca</span>
+  </div>
+
+</div>
+
+</body>
+</html>
